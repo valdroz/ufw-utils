@@ -7,7 +7,7 @@ CLI Utilities for faster UFW configuration management.
 If UFW is your choice for managing iptables, and you decided to stop malicious actors from poking your servers?
 You will soon to figure out that it takes hours to update over 60,000 rules through `ufw` CLI so your servers can only be accessed from US only for example.
 
-Here https://www.countryipblocks.net/acl.php is the wonderful tool to get network IP ranges for the various configurations that might for for your use case. If not just grab CIDR list. (US list is already available in `us-ip-ranges.dat`)
+Here https://www.countryipblocks.net/acl.php is the wonderful tool to get network IP ranges for the various configurations that might work for your use case. If not just grab CIDR list. (US list is already available in `us-ip-ranges.dat`)
 
 
 ## Enable only US traffic to HTTP/S port
